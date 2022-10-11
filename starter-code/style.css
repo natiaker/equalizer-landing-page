@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root {
+/* colors */
+    --cyan: #66E2DC;
+    --orange-red: #FA7453;
+    --gold: #FFB964;
+    --almost-white: #FCFAF9;
+    --dark-blue: #191826;
+
+    --body1: 20px;
+    --body1-line-height: 34px;
+    --body2: 16px;
+    --body2-line-height: 26px;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url(assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top -178px right -209px;
+}
+
+/* start section */
+h1 {
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -1px;
+    max-width: 254px;
+}
+
+#start-section {
+    margin: 65px 24px;
+}
+
+#start-section p {
+    font-size: var(--body2);
+    margin-top: 20px;
+    max-width: 327px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+/* main section */
+.container {
+    position: relative;
+    width: auto;
+    height: 600px;
+    margin-top: 166px;
+    background-color: var(--dark-blue);
+    background-image: url(assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 280px;
+}
+
+#main-section img{
+    position: absolute;
+    width: 208.97px;
+    z-index: 1;
+    top: 524px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.download-card {
+    position: absolute;
+    top: 380px;
+    padding: 48px 36px;
+    background-color: var(--orange-red);
+    color: var(--almost-white);
+    border-radius: 12px;
+}
+
+.download-card h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 36px 0 32px;
+    font-size: 65px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+}
+
+.price span {
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+.btn-group a {    
+    max-width: 297px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-group a svg {
+    margin-right: 8px;
+}
+
+.ios-download {
+    color: var(--almost-white);
+    background-color: var(--dark-blue);
+}
+
+.android-download {
+    margin-top: 16px;
+    color: var(--dark-blue);
+    background-color: var(--almost-white);
+}
+
+.btn-group {
+    padding-left: 5px;
+}
+
+
+/* footer */
+footer {
+    margin: 390px 24px 80px;
+}
+
+footer p {
+    margin: 32px 0 64px;
+    max-width: 296px;
+}
+
+.social-icons {
+    display: flex;
+    max-width: 100px;
+    justify-content: space-between;
+}
