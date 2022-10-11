@@ -47,8 +47,8 @@ h1 {
 
 /* main section */
 .container {
+    margin: 0 auto;
     position: relative;
-    width: auto;
     height: 600px;
     margin-top: 166px;
     background-color: var(--dark-blue);
@@ -56,6 +56,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 280px;
+    border-radius: 12px;
 }
 
 .app-illustration{
@@ -152,12 +153,181 @@ footer p {
     max-width: 296px;
 }
 
+.footer-logo {
+    width: 146px;
+    height: 32px;
+}
+
 .social-icons {
     display: flex;
-    max-width: 100px;
+    width: 100px;
     justify-content: space-between;
 }
 
 .social-icons a:hover path {
     fill: var(--orange-red);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-tablet.png);
+        background-position: top -32px right -36px, top -294px right -121px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+        max-width: 520px;
+    }
+    
+    #start-section {
+        margin: 95px 39px 111px;
+    }
+    
+    #start-section p {
+        font-size: var(--body1);
+        margin-top: 28px;
+        max-width: 569px;
+        min-height: 112px;
+    }
+    
+    .logo {
+        margin-top: 62px;
+        margin-left: 39px;
+    }
+
+    /* main section */
+    .container {
+        margin: 0 33px;
+        margin-top: 250px;
+        background-position: center -39px;
+        background-size: 280px;
+    }
+
+    .app-illustration{
+        width: 270px;
+        left: 97px;
+        top: 632px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .download-card {
+        z-index: 2;
+        right: 70px;
+        left: unset;
+        top: 143px;
+        max-width: 399px;
+        max-height: 546px;
+        padding: 48px;
+    }
+
+    .card-p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* footer */
+    footer {
+        margin: 183px 39px 85px;
+    }
+
+    footer p {
+        margin: 32px 0 0;
+        max-width: 366px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-desktop.png);
+        background-position: top -32px right -36px, top -294px right -121px;
+    }
+
+    h1 {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        max-width: 1015px;
+    }
+
+    #start-section {
+        margin: 127px 165px 108px;
+    }
+
+    #start-section p {
+        font-size: 20px;
+        margin-top: 40px;
+        max-width: 825px;
+        min-height: 102px;
+    }
+
+    .logo {
+        margin-top: 62px;
+        margin-left: 165px;
+    }
+
+    .container {
+        background-size: 312px;
+    }  
+    
+    .app-illustration {
+        width: 312px;
+        left: 267px;
+        top: 647px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .download-card {
+        right: 95px;
+        left: unset;
+        top: 86px;
+        max-width: 446px;
+        max-height: 625px;
+        padding: 59px;
+    }
+
+    .download-card h2 {
+        font-size: 40px;
+        margin-bottom: 22px;
+    }
+
+    .download-card p {
+        max-width: 295px;
+    }
+
+    .container {
+        margin: 0 165px;
+        margin-top: 321px;
+    }
+
+    .price {
+        margin: 46px 0 39px;
+    }
+
+    /* footer */
+    footer {
+        margin: 202px 165px 91px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p {
+        margin: 0 359px 0 0;
+        max-width: 366px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
 }
