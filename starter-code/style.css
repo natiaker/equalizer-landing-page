@@ -310,11 +310,7 @@ footer p {
         font-size: 40px;
         margin-bottom: 22px;
     }
-
-    .download-card p {
-        max-width: 295px;
-    }
-
+    
     .container {
         margin: 0 165px;
         margin-top: 321px;
@@ -322,6 +318,10 @@ footer p {
 
     .price {
         margin: 46px 0 39px;
+    }
+
+    .btn-group a {
+        width: 333px;
     }
 
     /* footer */
