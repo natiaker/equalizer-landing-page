@@ -14,8 +14,8 @@
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/natiaker/art-gallery.git)
-- Live Site URL: [Live site URL](https://natiaker.github.io/art-gallery/starter-code/)
+- Solution URL: [Solution URL](https://github.com/natiaker/equalizer-landing-page.git)
+- Live Site URL: [Live site URL](https://natiaker.github.io/equalizer-landing-page/starter-code/)
 
 ### Built with
 
